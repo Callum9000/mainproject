@@ -7,13 +7,13 @@
             android:icon="@drawable/home_icon"
             android:title="Home" />
         <item
-            android:id="@+id/nav_clock"
-            android:icon="@drawable/home_icon"
-            android:title="clock" />
+            android:id="@+id/nav_maps"
+            android:icon="@drawable/ic_baseline_map_24"
+            android:title="Maps" />
         <item
-            android:id="@+id/nav_stuff"
-            android:icon="@drawable/home_icon"
-            android:title="stuff" />
+            android:id="@+id/nav_todo"
+            android:icon="@drawable/ic_baseline_checklist_24"
+            android:title="To do" />
 
 
     </group>
@@ -22,9 +22,9 @@
         <item android:title="Profile">
             <menu>
                 <item
-                    android:id="@+id/nav_time"
-                    android:icon="@drawable/home_icon"
-                    android:title="Time" />
+                    android:id="@+id/nav_clock"
+                    android:icon="@drawable/clock"
+                    android:title="clock" />
                 <item
                     android:id="@+id/nav_test"
                     android:icon="@drawable/home_icon"
